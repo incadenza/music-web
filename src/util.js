@@ -1,0 +1,1 @@
+export const fetcher = (url) => fetch(`${process.env.REACT_APP_API_URL}/${url}`).then(res => res.json())
